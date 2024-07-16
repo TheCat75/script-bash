@@ -1,13 +1,19 @@
-# Scripts Personnalisés pour Terminal
+# Scripts Personnalisés pour linux
 
 Ce dépôt contient une collection de scripts Bash pour améliorer l'efficacité du développement et la gestion des projets.
 
 ## Scripts Inclus
 
 - `pass.sh` : Un script pour copier un mot de passe dans le presse-papiers.
+  - Pensez à modifier la variable `mdp` par votre mot de passe.
+
 - `symfony_script.sh` : Un ensemble de commandes pour gérer un projet Symfony.
+  - Pensez à créer un dossier `file-shell/` pour stocker les fichiers shell.
+
 - `createvhost.sh` : Un script pour créer rapidement des hôtes virtuels pour Apache.
+
 - `createUserMysql.sh` : Un script pour créer des utilisateurs MySQL avec des privilèges spécifiques.
+  - Pensez à modifier la commande `mysql` ligne 14 si vous utilisez une connexion par mot de passe avec `mysql -u votre_user -p`.
 
 ## Utilisation
 
@@ -51,3 +57,6 @@ Avec ces alias, vous pourrez exécuter vos scripts personnalisés directement de
 
 
 Assurez-vous de remplacer `chemin/vers/vos/scripts/` par le chemin réel où vos scripts sont stockés avant de les copier. De même, remplacez `votre_alias` et `nom-du-script.sh` par les noms que vous souhaitez utiliser pour vos alias et scripts. Si vous avez besoin d'aide supplémentaire ou si vous avez des questions, n'hésitez pas à demander !
+
+
+Les contributions sont les bienvenues ! Si vous avez des suggestions ou des améliorations, n’hésitez pas à ouvrir une issue ou une pull request.
